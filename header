@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">Orthoneer</a>
+
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="aknife.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
