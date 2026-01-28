@@ -13,65 +13,94 @@
 
 <body>
 
-<!-- HEADER (inline, simple) -->
+<!-- HEADER -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
   <div class="container">
     <a class="navbar-brand" href="index.html">
       <img src="img/Logo/logo1.png" height="40" alt="Orthoneer Logo">
     </a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
       ☰
     </button>
+
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#">สินค้า</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">ติดต่อ</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">สินค้า</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">ติดต่อ</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- BANNER -->
-<img src="img/banner_img.jpg" class="img-fluid w-100">
+<img
+  src="img/banner_img.jpg"
+  class="img-fluid w-100"
+  alt="Orthoneer Banner"
+>
 
 <!-- COMPANY -->
 <section class="container py-5 text-center">
   <h1 class="fw-bold">บริษัทออร์โธเนียร์ จำกัด</h1>
-  <img src="img/Logo/a1.jpg" class="img-fluid mt-3" style="max-width:400px">
+  <img
+    src="img/Logo/a1.jpg"
+    class="img-fluid mt-3"
+    style="max-width:400px"
+    alt="Orthoneer Company"
+  >
 </section>
 
 <!-- YOUTUBE -->
 <div class="container mb-5">
   <div class="ratio ratio-16x9">
-    <iframe src="https://www.youtube.com/embed/1C3ps7oJ3Cg" allowfullscreen></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/1C3ps7oJ3Cg"
+      title="Orthoneer Video"
+      allowfullscreen>
+    </iframe>
   </div>
 </div>
 
 <!-- PRODUCTS -->
-<section class="container py-5">
+<section id="products" class="container py-5">
   <h2 class="text-center mb-4">สินค้า</h2>
+
   <div class="row g-4">
 
+    <!-- Facedown Pillow -->
     <div class="col-12 col-md-6 col-lg-4">
-      <div class="card h-100">
-        <img src="img/facedown_pillow.JPG" class="card-img-top">
+      <div class="card h-100 shadow-sm">
+        <img
+          src="img/facedown_pillow.JPG"
+          class="card-img-top"
+          alt="Facedown Pillow หมอนคว่ำหน้า"
+        >
         <div class="card-body text-center">
-          <h5>หมอนคว่ำหน้า</h5>
-          <p>1,550 บาท</p>
-          <a href="facedownpillow.html" class="btn btn-primary">รายละเอียด</a>
+          <h5 class="card-title">หมอนคว่ำหน้า</h5>
+          <p class="card-text">1,550 บาท</p>
+          <a href="facedownpillow.html" class="btn btn-primary">
+            รายละเอียด
+          </a>
         </div>
       </div>
     </div>
 
-    <!-- copy more products here -->
+    <!-- Add more product cards below -->
 
   </div>
 </section>
 
 <!-- FOOTER -->
 <div id="footer"></div>
-  
+
+<!-- SCRIPTS -->
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/include.js"></script>
+
 </body>
 </html>
